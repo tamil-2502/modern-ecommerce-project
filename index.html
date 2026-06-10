@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      ModernStore
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+    <div class="header-icons">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </header>
+  <section class="filters">
+  <button class="filter-btn" data-category="All">
+    All
+  </button>
+  <button class="filter-btn" data-category="Shoes">
+    Shoes
+  </button>
+  <button class="filter-btn" data-category="Electronics">
+    Electronics
+  </button>
+  <button class="filter-btn" data-category="Fashion">
+    Fashion
+  </button>
+  </section>
+<div class="sort-container">
+  <select id="sortProducts">
+    <option value="default">
+      Sort Products
+    </option>
+    <option value="low-high">
+      Price: Low to High
+    </option>
+    <option value="high-low">
+      Price: High to Low
+    </option>
+  </select>
+</div>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Modern Shopping Experience</h1>
+      <p>
+        Discover premium fashion and electronics
+      </p>
+      <button id="shopNowBtn">
+        Shop Now
+      </button>
+      <button id="themeToggle">
+        🌙
+      </button>
+    </div>
+  </section>
+  <!-- PRODUCTS -->
+  <section class="products-container">
+  </section>
+  <div class="pagination">
+  <button id="prevBtn">
+    Prev
+  </button>
+  <span id="pageNumber">
+    1
+  </span>
+  <button id="nextBtn">
+    Next
+  </button>
+</div>
+  <section class="recommended">
+  <h2>Recommended Products 🔥</h2>
+  <div class="recommended-container">
+    <div class="recommended-card">
+      Trending Sneakers
+    </div>
+    <div class="recommended-card">
+      Smart Gadgets
+    </div>
+    <div class="recommended-card">
+      Fashion Collection
+    </div>
+  </div>
+</section>
+<section class="recent-section">
+  <h2> Recently Viewed 👀</h2>
+  <div class="recent-container" id="recentContainer">
+  </div>
+</section>
+  <div id="toast"></div>
+  
+<!-- MODAL -->
+<div class="modal" id="productModal">
+  <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="modalImage">
+      <h2 id="modalTitle"></h2>
+      <p id="modalPrice"></p>
+      <button id="modalCartBtn">
+          Add To Cart
+      </button>
+  </div>
+</div>
+
+<!-- LOGIN BOX (MOVE OUTSIDE) -->
+<div id="loginBox">
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
