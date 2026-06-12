@@ -4,7 +4,7 @@ const products = [
     id:1,
     name:"Nike Air Max",
     category:"Shoes",
-    price:120,
+    price:1200,
     image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff"
   },
 
@@ -12,7 +12,7 @@ const products = [
     id:2,
     name:"Wireless Headphones",
     category:"Electronics",
-    price:90,
+    price:3500,
     image:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
   },
 
@@ -20,7 +20,7 @@ const products = [
     id:3,
     name:"Hoodie",
     category:"Fashion",
-    price:65,
+    price:500,
     image:"https://images.unsplash.com/photo-1556821840-3a63f95609a7"
   },
 
@@ -28,7 +28,7 @@ const products = [
     id:4,
     name:"Smart Watch",
     category:"Electronics",
-    price:220,
+    price:2200,
     image:"https://images.unsplash.com/photo-1434494878577-86c23bcb06b9"
   },
 
@@ -36,7 +36,7 @@ const products = [
     id:5,
     name:"Sneakers",
     category:"Shoes",
-    price:100,
+    price:4000,
     image:"https://images.unsplash.com/photo-1549298916-b41d501d3772"
   },
 
@@ -44,7 +44,7 @@ const products = [
     id:6,
     name:"Gaming Keyboard",
     category:"Electronics",
-    price:110,
+    price:2700,
     image:"https://images.unsplash.com/photo-1511467687858-23d96c32e4ae"
   },
 
@@ -52,7 +52,7 @@ const products = [
     id:7,
     name:"Jacket",
     category:"Fashion",
-    price:85,
+    price:1400,
     image:"https://images.unsplash.com/photo-1523398002811-999ca8dec234"
   },
 
@@ -60,7 +60,7 @@ const products = [
     id:8,
     name:"Bluetooth Speaker",
     category:"Electronics",
-    price:75,
+    price:3000,
     image:"https://images.unsplash.com/photo-1589003077984-894e133dabab"
   },
 
@@ -68,7 +68,7 @@ const products = [
     id:9,
     name:"Running Shoes",
     category:"Shoes",
-    price:135,
+    price:2000,
     image:"https://images.unsplash.com/photo-1460353581641-37baddab0fa2"
   },
 
@@ -76,7 +76,7 @@ const products = [
     id:10,
     name:"T-Shirt",
     category:"Fashion",
-    price:45,
+    price:800,
     image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
   },
 
@@ -84,7 +84,7 @@ const products = [
     id:11,
     name:"DSLR Camera",
     category:"Electronics",
-    price:520,
+    price:5200,
     image:"https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
   },
 
@@ -92,14 +92,14 @@ const products = [
     id:12,
     name:"Hand Bag",
     category:"Fashion",
-    price:140,
+    price:1400,
     image:"https://images.unsplash.com/photo-1548036328-c9fa89d128fa"
   },
   {
     id:14,
     name:"Sport Shoes",
     category:"Shoes",
-    price:150,
+    price:1500,
     image:"https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
   },
 
@@ -107,7 +107,7 @@ const products = [
     id:15,
     name:"Classic Sunglasses",
     category:"Fashion",
-    price:55,
+    price:550,
     image:"https://images.unsplash.com/photo-1511499767150-a48a237f0083"
   },
 
@@ -115,21 +115,21 @@ const products = [
     id:16,
     name:"WirelessMouse",
     category:"Electronics",
-    price:60,
+    price:1600,
     image:"https://images.unsplash.com/photo-1527814050087-3793815479db"
   },
   {
   id:17,
   name:"Laptop",
   category:"Electronics",
-  price:1800,
+  price:180000,
   image:"https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
 },
 {
   id:18,
   name:"Smartphone",
   category:"Electronics",
-  price:950,
+  price:95000,
   image:"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
 },
 
@@ -137,7 +137,7 @@ const products = [
   id:19,
   name:"Casual Sneakers",
   category:"Shoes",
-  price:115,
+  price:1500,
   image:"https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77"
 },
 
@@ -145,7 +145,7 @@ const products = [
   id:20,
   name:"Heels",
   category:"Shoes",
-  price:145,
+  price:2000,
   image:"https://images.unsplash.com/photo-1543163521-1bf539c55dd2"
 },
 
@@ -153,7 +153,7 @@ const products = [
   id:21,
   name:"Leather Jacket",
   category:"Fashion",
-  price:170,
+  price:1700,
   image:"https://images.unsplash.com/photo-1520975916090-3105956dac38"
 },
 
@@ -161,7 +161,7 @@ const products = [
   id:22,
   name:"Backpack Bag",
   category:"Fashion",
-  price:210,
+  price:900,
   image:"https://images.unsplash.com/photo-1584917865442-de89df76afd3"
 },
 
@@ -169,7 +169,7 @@ const products = [
   id:23,
   name:"Wireless Earbuds",
   category:"Electronics",
-  price:130,
+  price:1300,
   image:"https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
 },
 
@@ -177,7 +177,7 @@ const products = [
   id:24,
   name:"Gaming Chair",
   category:"Electronics",
-  price:320,
+  price:3200,
   image:"https://images.unsplash.com/photo-1598550476439-6847785fcea6"
 },
 
@@ -185,7 +185,7 @@ const products = [
   id:25,
   name:"Women T-Shirt",
   category:"Fashion",
-  price:75,
+  price:750,
   image:"https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
 },
 
@@ -193,7 +193,7 @@ const products = [
   id:26,
   name:"Sneakers",
   category:"Shoes",
-  price:160,
+  price:1600,
   image:"https://images.unsplash.com/photo-1608231387042-66d1773070a5"
 },
 
@@ -201,7 +201,7 @@ const products = [
   id:27,
   name:"Monitor",
   category:"Electronics",
-  price:420,
+  price:42000,
   image:"https://images.unsplash.com/photo-1527443224154-c4a3942d3acf"
 },
 
@@ -209,14 +209,14 @@ const products = [
   id:28,
   name:"Designer T-Shirt",
   category:"Fashion",
-  price:50,
+  price:800,
   image:"https://images.unsplash.com/photo-1503341504253-dff4815485f1"
 },
 {
   id:30,
   name:"Basketball Shoes",
   category:"Shoes",
-  price:190,
+  price:1900,
   image:"https://images.unsplash.com/photo-1514989940723-e8e51635b782"
 }
 ];
